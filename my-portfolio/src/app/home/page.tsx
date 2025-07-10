@@ -1,9 +1,9 @@
 
 
-import Divider from '@/components/Divider/Divider'
 import { Footer } from '@/components/Footer/Footer'
 import { Hero } from '@/components/Hero/Hero'
 import { Navbar } from '@/components/Navbar/Navbar'
+import { Contact } from 'lucide-react'
 import React from 'react'
 
 const home = () => {
@@ -12,6 +12,8 @@ const home = () => {
             <Navbar />
             <br></br>
             <Hero />
+            <br></br>
+            <Contact />
             <br></br>
             <Footer />
         </main>
