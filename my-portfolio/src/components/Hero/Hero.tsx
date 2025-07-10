@@ -1,5 +1,9 @@
+'use client'
+
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+import { useMediaQuery } from "@/hooks/useMediaQuery";
 
 const data = {
     paragraph:
@@ -14,11 +18,19 @@ const data = {
 
 
 const Hero = () => {
+
+    const isMobile = useMediaQuery("(max-width: 768px)");
+
     return (
         <section>
             <div className="container pt-13">
                 <div className="grid items-center gap-8 bg-muted-2 lg:grid-cols-2">
-                    <div className="flex flex-col items-center p-16 text-center lg:items-start lg:text-left">
+                    <motion.div
+                        initial={isMobile ? { y: 100, opacity: 0 } : { x: -100, opacity: 0 }}
+                        animate={{ x: 0, y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8, ease: "easeOut" }}
+                        className="flex flex-col items-center p-16 text-center lg:items-start lg:text-left"
+                        >
                         <h1 className="my-6 text-3xl font-bold text-pretty lg:text-6xl">
                             Md. Tahsin Hasib
                         </h1>
@@ -31,7 +43,7 @@ const Hero = () => {
                                 <ArrowRight className="size-4" />
                             </Button>
                         </div>
-                    </div>
+                    </motion.div>
                     <img
                         src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
                         alt="placeholder hero"
