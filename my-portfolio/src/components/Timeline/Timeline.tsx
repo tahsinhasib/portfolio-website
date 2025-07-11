@@ -33,8 +33,8 @@ export const Timeline = ({ events, className = "" }: TimelineProps) => {
           {/* Hover Panel */}
           <div
             className={`
-              absolute left-[-200px] top-0 h-full w-[180px] bg-muted-foreground/10 p-4
-              rounded-md opacity-0 -translate-x-4 transition-all duration-300
+              absolute left-[-260px] top-0 h-full w-[250px] bg-muted-foreground/10 p-4
+              rounded-md opacity-0 -translate-x-400 transition-all duration-300
               group-hover:translate-x-0 group-hover:opacity-100
             `}
           >

@@ -26,12 +26,12 @@ const timelineEvents = [
 
 export default function TimelineSection() {
   return (
-    <section className="py-12">
-  <div className="container flex flex-col pl-8 pr-8 md:flex-row gap-8">
+    <section className="py-12 w-full flex justify-center">
+  <div className="container flex flex-col pl-8 pr-8 md:flex-row gap-20">
     <div className="md:w-1/2">
-      <h2 className="text-4xl font-bold mb-8">About</h2>
+      <h2 className="text-5xl font-bold mb-8">About Me</h2>
       <p className="text-muted-foreground">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel consectetur euismod.
+        A brief overview about my jourey.
       </p>
     </div>
 
