@@ -20,26 +20,13 @@ import { Navbar } from "./Navbar/Navbar"
 const data = {
     versions: ["1.0.1", "1.1.0-alpha", "2.0.0-beta1"],
     navMain: [
+
         {
-            title: "Getting Started",
+            title: "About",
             url: "#",
             items: [
                 {
-                    title: "Installation",
-                    url: "#",
-                },
-                {
-                    title: "Project Structure",
-                    url: "#",
-                },
-            ],
-        },
-        {
-            title: "Building Your Application",
-            url: "#",
-            items: [
-                {
-                    title: "Routing",
+                    title: "Overview",
                     url: "#",
                 },
                 {
@@ -151,7 +138,7 @@ const data = {
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     return (
         <>
-            <Sidebar {...props}>
+            <Sidebar {...props} className="pt-20">
 
                 <SidebarContent>
                     {/* We create a SidebarGroup for each parent. */}

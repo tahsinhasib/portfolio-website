@@ -1,4 +1,5 @@
 import { AppSidebar } from "@/components/app-sidebar"
+import { Navbar } from "@/components/Navbar/Navbar"
 import Sidebar from "@/components/Sidebar/Sidebar"
 import {
     Breadcrumb,
@@ -17,6 +18,8 @@ import {
 
 export default function About() {
     return (
-        <Sidebar />
+        <>
+            <Sidebar />
+        </>
     )
 }
