@@ -16,7 +16,6 @@ const home = () => {
         // <main className="md:flex flex-col min-h-screen items-center justify-center">
         <main>
             <Navbar />
-            <br></br>
             <Hero />
             <Divider className='mt-24' />
             <TimelineSection />
