@@ -1,9 +1,12 @@
 
 
+
+import { Contact } from '@/components/Contact/Contact'
+import { Divider } from '@/components/Divider/Divider'
+
 import { Footer } from '@/components/Footer/Footer'
 import { Hero } from '@/components/Hero/Hero'
 import { Navbar } from '@/components/Navbar/Navbar'
-import { Contact } from 'lucide-react'
 import React from 'react'
 
 const home = () => {
@@ -13,6 +16,7 @@ const home = () => {
             <br></br>
             <Hero />
             <br></br>
+            <Divider className="mt-24" />
             <Contact />
             <br></br>
             <Footer />

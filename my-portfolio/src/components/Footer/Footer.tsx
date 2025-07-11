@@ -112,8 +112,8 @@ const Footer = ({
                         ))}
                     </div>
                     <div className="mt-24 flex flex-col justify-between gap-4 border-t pt-8 text-sm font-medium text-muted-foreground md:flex-row md:items-center">
-                        <p>{copyright}</p>
-                        <ul className="flex gap-4">
+                        <p className="text-center">{copyright}</p>
+                        <ul className="flex gap-4 justify-center">
                             {bottomLinks.map((link, linkIdx) => (
                                 <li key={linkIdx} className="underline hover:text-primary">
                                     <a href={link.url}>{link.text}</a>
