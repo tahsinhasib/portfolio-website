@@ -1,22 +1,17 @@
 import Link from "next/link";
-import { CircleCheckIcon, CircleHelpIcon, CircleIcon, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 
 import { ModeToggle } from "../ModeToggle";
-import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "../ui/navigation-menu";
+import { NavigationMenu } from "../ui/navigation-menu";
 import { NavbarContents } from "./NavbarContents";
-
-
-
-
-
-
 
 export function Navbar() {
     return (
         <header
-            className="w-full border-b flex justify-center bg-white shadow-sm fixed top-0 dark:bg-neutral-950">
+            className="w-full border-b flex justify-center fixed top-0 z-50
+                       bg-white/30 backdrop-blur-xs backdrop-saturate-150 dark:bg-neutral-900/30 shadow-sm">
             <div
                 className="container flex items-center justify-between p-5">
                 {/* Logo */}
@@ -32,20 +27,14 @@ export function Navbar() {
                     <NavbarContents />
                 </NavigationMenu>
 
-                
-
-
-
                 {/* Actions */}
                 <div className="hidden md:flex gap-2">
                     <Button className="cursor-pointer">Contact</Button>
                     <ModeToggle />
                 </div>
 
-
                 {/* Mobile Menu */}
-                <div
-                    className="md:hidden">
+                <div className="md:hidden">
                     <Sheet>
                         <SheetTrigger asChild>
                             <Button
@@ -73,8 +62,3 @@ export function Navbar() {
         </header>
     );
 }
-
-
-
-
-

@@ -17,25 +17,25 @@ interface Contact2Props {
 }
 
 const Contact = ({
-    title = "Contact Me",
+    title = "Connect With Me",
     description = "We are available for questions, feedback, or collaboration opportunities. Let us know how we can help!",
     phone = "(+88) 017 111 02730",
     email = "tahsinhasib@gmail.com",
     web = { label: "shadcnblocks.com", url: "https://shadcnblocks.com" },
 }: Contact2Props) => {
     return (
-        <section className="py-32 w-full flex justify-center">
+        <section className="p-20 w-full flex justify-center">
             <div className="container">
-                <div className="mx-auto flex max-w-9xl flex-col justify-between gap-10 lg:flex-row lg:gap-20">
-                    <div className="mx-auto flex max-w-sm flex-col justify-between gap-10">
+                <div className="flex max-w-9xl flex-col justify-between gap-10 lg:flex-row lg:gap-20">
+                    <div className="mx-auto flex flex-col justify-between gap-10">
                         <div className="text-center lg:text-left">
-                            <h1 className="mb-2 text-5xl font-semibold lg:mb-1 lg:text-6xl">
+                            <h1 className="mb-2 text-5xl font-bold lg:mb-1 lg:text-5xl">
                                 {title}
                             </h1>
-                            <p className="text-muted-foreground text-sm pt-4">{description}</p>
+                            <p className="text-muted-foreground text-md pt-4">{description}</p>
                         </div>
                         <div className="mx-auto w-fit lg:mx-0">
-                            <h3 className="mb-6 text-center text-4xl font-semibold lg:text-left">
+                            <h3 className="mb-6 text-center text-4xl font-bold lg:text-left">
                                 Contact Details
                             </h3>
                             <ul className="ml-4 list-none">

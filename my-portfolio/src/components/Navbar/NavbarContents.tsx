@@ -148,13 +148,10 @@ export function NavbarContents() {
                         <ul className="grid w-[200px] gap-4">
                             <li>
                                 <NavigationMenuLink asChild>
-                                    <Link href="#">Components</Link>
+                                    <Link href="#">Certifications</Link>
                                 </NavigationMenuLink>
                                 <NavigationMenuLink asChild>
-                                    <Link href="#">Documentation</Link>
-                                </NavigationMenuLink>
-                                <NavigationMenuLink asChild>
-                                    <Link href="#">Blocks</Link>
+                                    <Link href="#">Dean's Award</Link>
                                 </NavigationMenuLink>
                             </li>
                         </ul>

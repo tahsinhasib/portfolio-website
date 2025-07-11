@@ -22,19 +22,19 @@ const Hero = () => {
     const isMobile = useMediaQuery("(max-width: 768px)");
 
     return (
-        <section>
-            <div className="container pt-13">
-                <div className="grid items-center gap-8 bg-muted-2 lg:grid-cols-2">
+        <section className="flex justify-center">
+            <div className="container pt-20">
+                <div className="grid items-center p-20 gap-8 bg-muted-2 lg:grid-cols-2">
                     <motion.div
                         initial={isMobile ? { y: 100, opacity: 0 } : { x: -100, opacity: 0 }}
                         animate={{ x: 0, y: 0, opacity: 1 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
-                        className="flex flex-col items-center p-16 text-center lg:items-start lg:text-left"
-                        >
+                        className="flex flex-col items-center text-center lg:items-start lg:text-left"
+                    >
                         <h1 className="my-6 text-3xl font-bold text-pretty lg:text-6xl">
                             Md. Tahsin Hasib
                         </h1>
-                        <p className="mb-8 max-w-xl text-sm text-justify text-muted-foreground lg:text-md">
+                        <p className="mb-8 max-w-xl text-md text-justify text-muted-foreground lg:text-md">
                             {data.paragraph}
                         </p>
                         <div className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
@@ -44,11 +44,13 @@ const Hero = () => {
                             </Button>
                         </div>
                     </motion.div>
-                    <img
-                        src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
-                        alt="placeholder hero"
-                        className="h-full w-full object-cover"
-                    />
+                    <div className="flex justify-center">
+                        <img
+                            src="images/hero-modified.png"
+                            alt="placeholder hero"
+                            className="w-80 object-cover"
+                        />
+                    </div>
                 </div>
             </div>
         </section>
