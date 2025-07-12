@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Software Developer Intern",
+    "description": "Initial brainstorming, project setup and planning.",
+    "date": "July 2025"
+  },
+  {
+    "title": "Bachelor of Science",
+    "description": "Undergraduate from American International University - Bangladesh",
+    "date": "February 2025"
+  },
+  {
+    "title": "Development",
+    "description": "Building the core features using Next.js & Shadcn.",
+    "date": "March 2025"
+  },
+  {
+    "title": "Launch",
+    "description": "Deployed to production with CI/CD pipeline.",
+    "date": "April 2025"
+  }
+]

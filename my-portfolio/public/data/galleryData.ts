@@ -1,6 +1,6 @@
 // /data/galleryData.ts
 
-import { GalleryItem } from "@/components/Gallery/Gallery";
+import { GalleryItem } from "@/components/home/galleryComp/Gallery";
 
 
 export const galleryItems: GalleryItem[] = [

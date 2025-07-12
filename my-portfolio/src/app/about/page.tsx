@@ -1,6 +1,6 @@
 import { AppSidebar } from "@/components/app-sidebar"
-import { Navbar } from "@/components/Navbar/Navbar"
-import Sidebar from "@/components/Sidebar/Sidebar"
+import { Navbar } from "@/components/common/navbarComp/Navbar"
+import Sidebar from "@/components/about/sidebarComp/AboutSidebar"
 import {
     Breadcrumb,
     BreadcrumbItem,

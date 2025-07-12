@@ -3,8 +3,8 @@ import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 
-import { ModeToggle } from "../ModeToggle";
-import { NavigationMenu } from "../ui/navigation-menu";
+import { ModeToggle } from "../../ModeToggle";
+import { NavigationMenu } from "../../ui/navigation-menu";
 import { NavbarContents } from "./NavbarContents";
 
 export function Navbar() {

@@ -1,0 +1,25 @@
+{
+  "navMain": [
+    {
+      "title": "About",
+      "items": [
+        {
+          "title": "Overview",
+          "page": "overview"
+        },
+        {
+          "title": "Education",
+          "page": "education"
+        },
+        {
+          "title": "Tech Stack",
+          "page": "techstack"
+        },
+        {
+          "title": "Awards",
+          "page": "awards"
+        }
+      ]
+    }
+  ]
+}

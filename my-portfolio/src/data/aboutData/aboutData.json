@@ -1,0 +1,20 @@
+{
+  "overview": {
+    "heading": "Overview",
+    "text": "I'm an undergraduate Computer Science & Engineering student at American International University in Bangladesh. I'm a quick learner with a strong interest in web development, driven to solve complex problems and develop innovative solutions that make a difference. I enjoy the fast-paced nature of web development as a frontend developer and adapt to emerging trends and industry best practices to produce appealing digital products that leave a lasting impact on users."
+  },
+  "overview_features": [
+    {
+      "title": "Hey there, I'm Tahsin",
+      "text": "I'm a 24 year old software developer who has a strong passion for web development",
+      "image": "images/hero.jpg",
+      "reverse": false
+    },
+    {
+      "title": "Feature 2",
+      "text": "Nam vitae molestie arcu. Quisque eu libero orci. Aliquam imperdiet magna nec massa consectetur, id interdum ante congue.",
+      "image": "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-2.svg",
+      "reverse": true
+    }
+  ]
+}

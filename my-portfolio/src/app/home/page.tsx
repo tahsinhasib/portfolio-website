@@ -1,13 +1,13 @@
 
 
 
-import { Contact } from '@/components/Contact/Contact'
-import { Divider } from '@/components/Divider/Divider'
-import { Footer } from '@/components/Footer/Footer'
-import { Gallery } from '@/components/Gallery/Gallery'
-import { Hero } from '@/components/Hero/Hero'
-import { Navbar } from '@/components/Navbar/Navbar'
-import TimelineSection from '@/components/Timeline/TimelineSection'
+import { Contact } from '@/components/home/contactComp/Contact'
+import { Divider } from '@/components/common/dividerComp/Divider'
+import { Footer } from '@/components/common/footerComp/Footer'
+import { Gallery } from '@/components/home/galleryComp/Gallery'
+import { Hero } from '@/components/home/heroComp/Hero'
+import { Navbar } from '@/components/common/navbarComp/Navbar'
+import TimelineSection from '@/components/home/timelineComp/TimelineSection'
 import React from 'react'
 import { galleryDescription, galleryItems, galleryTitle } from '../../../public/data/galleryData'
 

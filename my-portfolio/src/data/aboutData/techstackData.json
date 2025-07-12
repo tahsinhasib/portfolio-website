@@ -1,0 +1,18 @@
+{
+  "groups": [
+    { "label": "Frontend", "value": 400 },
+    { "label": "Backend", "value": 300 },
+    { "label": "DevOps", "value": 200 },
+    { "label": "Testing", "value": 100 }
+  ],
+  "stacks": [
+    { "label": "React", "value": 200, "group": "Frontend" },
+    { "label": "Next.js", "value": 200, "group": "Frontend" },
+    { "label": "Node.js", "value": 150, "group": "Backend" },
+    { "label": "NestJS", "value": 150, "group": "Backend" },
+    { "label": "Docker", "value": 100, "group": "DevOps" },
+    { "label": "Kubernetes", "value": 100, "group": "DevOps" },
+    { "label": "Jest", "value": 50, "group": "Testing" },
+    { "label": "Cypress", "value": 50, "group": "Testing" }
+  ]
+}
