@@ -56,7 +56,7 @@ export default function TechStackPieChart() {
             {...settings}
             sx={{
                 [`.${pieClasses.series}[data-series="outer"] .${pieArcClasses.root}`]: {
-                    opacity: 0.6,
+                    opacity: 0.9,
                 },
             }}
         />

@@ -1,4 +1,4 @@
-import techStackData from '@/data/aboutData/techstackData.json';
+
 import TechStackPieChart from './charts/TechStackPieChart';
 
 
@@ -13,11 +13,8 @@ export default function TechStack() {
                         An overview of the technologies and tools I work with, categorized by their domain.
                     </p>
                     <div className="mt-8 space-y-2">
-                        {techStackData.groups.map((group) => (
-                            <div key={group.label} className="text-lg">
-                                <strong>{group.label}:</strong> {group.value} points
-                            </div>
-                        ))}
+                        {/* here */}
+
                     </div>
                 </div>
 
