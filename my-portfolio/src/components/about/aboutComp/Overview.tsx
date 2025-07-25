@@ -1,5 +1,4 @@
 'use client'
-import { ArrowRight } from 'lucide-react'
 import React from 'react'
 import aboutData from '@/data/aboutData/aboutData.json'
 import { motion } from 'framer-motion'
