@@ -4,6 +4,9 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
+import heroData from '@/data/homeData/heroData.json';
+
+
 
 const data = {
     paragraph:
@@ -29,14 +32,9 @@ const Hero = () => {
                         initial={isMobile ? { y: 100, opacity: 0 } : { x: -100, opacity: 0 }}
                         animate={{ x: 0, y: 0, opacity: 1 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
-                        className="flex flex-col items-center text-center lg:items-start lg:text-left"
-                    >
-                        <h1 className="my-6 text-3xl font-bold text-pretty lg:text-6xl">
-                            Md. Tahsin Hasib
-                        </h1>
-                        <p className="mb-8 max-w-xl text-md text-justify text-muted-foreground lg:text-md">
-                            {data.paragraph}
-                        </p>
+                        className="flex flex-col items-center text-center lg:items-start lg:text-left">
+                        <h1 className="my-6 text-3xl font-bold text-pretty lg:text-6xl">{heroData.name}</h1>
+                        <p className="mb-8 max-w-xl text-md text-justify text-muted-foreground lg:text-md">{heroData.paragraph}</p>
                         <div className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
                             <Button className="cursor-pointer">
                                 Read More
@@ -45,8 +43,7 @@ const Hero = () => {
                         </div>
                     </motion.div>
                     <div className="flex justify-center">
-                        <img
-                            src="images/hero-modified.png"
+                        <img src={heroData.image}
                             alt="placeholder hero"
                             className="w-80 object-cover"
                         />
